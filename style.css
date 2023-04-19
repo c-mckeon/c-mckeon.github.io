@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.container {
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 100px;
+  vertical-align: top;
+}
+
+.content {
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+
+          .sidebar {
+            background-color: #454545;
+            color: #fff;
+            width: 250px;
+            height: 100%;
+            display: inline-block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: static;
+            margin-left: 150px;
+            margin-top: 00px;
+          }
+
+          .sidebar h1 {
+            margin: 0;
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+          }
+
+          .sidebar p {
+            margin: 0;
+            color: #b0b0b0;
+            font-size: 21px;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+          }
+
+
+          .navbar {
+            margin-top: 80px; /* Adjust this value as needed */
+            display: flex;
+            flex-direction: column;
+          }
+
+          .navbar a {
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+          }
+
+          .navbar a:hover {
+            background-color: #fff;
+            color: #000;
+          }
+
+
+
+.main-content {
+  display: inline-block;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.main-content p {
+  text-align: justify;
+  width: 350px;
+}
+
+.photo img {
+  width: 250px;
+  display: inline-block;
+}
+
+.photo {
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.news {
+  display: block;
+  padding-left: 0px;
+  width: 650px;
+}
+
+
+      .CV-education{
+        width: 800px;
+        text-align: justify;
+      }
+
+      .CV-proficiencies{
+        width: 800px;
+        text-align: justify;
+      }
+          .height{
+            margin: 10px;
+          }
+
+      .CV-Experience{
+        width: 800px;
+          text-align: justify;
+      }
+
+      .dates {
+        float: right;
+      }
+
+
+
+.Pro-Reports img,
+.Pro-Presentations img {
+  width: 400px;
+  height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+  border: 1px solid #555; 
+}
+
+.Pro-Reports img:hover,
+.Pro-Presentations img:hover {
+  filter: brightness(0.8); 
+  cursor: pointer;
+}
+
+
+
+.Pro-Reports,
+.Pro-Presentations p{
+  width: 550px;
+  }
+
+footer {
+  padding-left: 500px;
+  padding-top: 00px;
+
+}
+
+
+
