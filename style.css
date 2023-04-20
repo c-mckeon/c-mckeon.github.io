@@ -47,38 +47,38 @@ body {
           .sidebar p {
             margin: 0;
             color: #b0b0b0;
-            font-size: 16px;
+            font-size: 21px;
             text-align: center;
             margin-top: 20px;
             padding: 20px;
           }
 
 
-          .navbar {
-            margin-top: 80px; /* Adjust this value as needed */
-            display: flex;
-            flex-direction: column;
-          }
+              .navbar {
+                margin-top: 80px; /* Adjust this value as needed */
+                display: flex;
+                flex-direction: column;
+              }
 
-          .navbar a {
-            font-size: 18px;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-            text-align: center;
-          }
+              .navbar a {
+                font-size: 18px;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+                text-align: center;
+              }
 
-          .navbar a:hover {
-            background-color: #fff;
-            color: #000;
-          }
+              .navbar a:hover {
+                background-color: #fff;
+                color: #000;
+              }
 
-          .navbar p {
-            font-size: 16px;
-            padding top 50px;
-            color: #b0b0b0;
-          }
-            
+              .navbar p {
+                font-size: 14px;
+                padding top 50px;
+                color: #b0b0b0;
+              }
+
 
 
 
