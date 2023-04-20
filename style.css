@@ -47,7 +47,7 @@ body {
           .sidebar p {
             margin: 0;
             color: #b0b0b0;
-            font-size: 21px;
+            font-size: 16px;
             text-align: center;
             margin-top: 20px;
             padding: 20px;
@@ -74,7 +74,7 @@ body {
           }
 
           .navbar p {
-            font-size: 18px;
+            font-size: 16px;
             padding top 50px;
             color: #b0b0b0;
           }
