@@ -73,8 +73,13 @@ body {
                 color: #000;
               }
 
-              .navbar h3 { font-size: 14px;   padding top: 50px;    color: #b0b0b0;    text-align: center;
+              .navbar h3 { 
+                font-size: 14px;   
+                padding-top: 50px;    
+                color: #b0b0b0;    
+                text-align: center;
                         }
+
 
 
 
