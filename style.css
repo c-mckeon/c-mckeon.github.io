@@ -14,10 +14,13 @@ body {
 }
 
 .content {
+  width: 700px;
   padding-left: 30px;
   display: inline-block;
   vertical-align: top;
 }
+
+.photo img {vertical-align: bottom;}
 
 
 
@@ -115,11 +118,13 @@ body {
       .CV-education{
         width: 800px;
         text-align: justify;
+        margin-left: 20px;
       }
 
       .CV-proficiencies{
         width: 800px;
         text-align: justify;
+        margin-left: 20px;
       }
           .height{
             margin: 10px;
@@ -128,6 +133,7 @@ body {
       .CV-Experience{
         width: 800px;
           text-align: justify;
+        margin-left: 20px;
       }
 
       .dates {
@@ -153,9 +159,16 @@ body {
 
 
 
-.Pro-Reports,
+.Pro-Reports p,
 .Pro-Presentations p{
   width: 550px;
+  margin-left: 20px;
+  }
+
+.Pro-Reports ,
+.Pro-Presentations {
+    border-left: solid 2px;
+  border-color: #555;
   }
 
 footer {
