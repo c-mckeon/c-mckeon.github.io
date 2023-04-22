@@ -25,8 +25,8 @@ body {
 .photo img {vertical-align: bottom;}
 
 
-.homepage .sidebar { height: 800px;}
-.CV .sidebar { height: 2000px; }
+.homepage .sidebar { height: 900px;}
+.CV .sidebar { height: 2250px; }
 .Research .sidebar { height: 1050px; }
 
           .sidebar {
@@ -64,6 +64,7 @@ body {
                 margin-top: 80px; /* Adjust this value as needed */
                 display: flex;
                 flex-direction: column;
+                position: relative;
               }
 
               .navbar a {
@@ -72,12 +73,26 @@ body {
                 text-decoration: none;
                 padding: 10px;
                 text-align: center;
+                position: relative;
               }
 
               .navbar a:hover {
                 background-color: #fff;
                 color: #000;
               }
+
+              .navbar a.active::before {
+                content: "»     ";
+                color: #fff;
+                font-size: 14px;
+                margin-right: 10px;
+                position: absolute;            
+                display: inline-block;
+                vertical-align: middle;
+                transform: translateX(-230%);
+              }
+
+
 
               .navbar h3 { 
                 font-size: 14px;    
@@ -86,8 +101,10 @@ body {
                 text-align: center;
               }
 
+
+
               .active {
-                background-color: #91665b;
+                background-color: #545454;
                 color: #000}
                        
 
@@ -101,16 +118,22 @@ body {
   padding: 0px;
 }
 
+
 .main-content p {
   text-align: justify;
-  margin-top: 5px;
+  margin-top: 0px;
   width: 350px;
+  line-height: 21px;
 }
+
+.titleabout {margin-bottom: 7px}
 
 .photo img {
   width: 250px;
   display: inline-block;
 }
+
+.contactme p {line-height: 23px}
 
 .photo {
   padding-left: 50px;
@@ -120,8 +143,9 @@ body {
 .news {
   display: block;
   padding-left: 0px;
-  width: 650px;
+  width: 700px;
 }
+
 
 
       .CV-education{
@@ -198,96 +222,121 @@ footer {
 
 /*//////////////////////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1201px) {
-  .sidebar {
-    width: 100%;
-    height: 500px;
-    position: relative;
-  }
+                              @media screen and (max-width: 1201px) {
+                                .sidebar {
+                                  width: 100%;
+                                  height: 500px;
+                                  position: relative;
+                                }
 
 
-  .sidebar ul {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+                                .sidebar ul {
+                                  flex-direction: row;
+                                  justify-content: space-between;
+                                }
 
-  .sidebar li {
-    margin: 0;
-  }
+                                .sidebar li {
+                                  margin: 0;
+                                }
 
 
 
-.sidebar {
-            background-color: #454545;
-              width: 100%;
-              height: 250px;
-              position: relative;
-            color: #fff;
-              flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: static;
-            margin-left: 0px;
-            margin-top: 0px;
-          }
+                              .sidebar {
+                                          background-color: #454545;
+                                            width: 100%;
+                                            height: 250px;
+                                            position: relative;
+                                          color: #fff;
+                                            flex-direction: column;
+                                          justify-content: center;
+                                          align-items: center;
+                                          position: static;
+                                          margin-left: 0px;
+                                          margin-top: 0px;
+                                        }
 
-          .sidebar h1 {
-            margin: 0;
-            font-size: 40px;
-            text-align: left;
-            padding: 20px;
-            padding-left: 70px;
-          }
+                                        .sidebar h1 {
+                                          margin: 0;
+                                          font-size: 40px;
+                                          text-align: left;
+                                          padding: 20px;
+                                          padding-left: 70px;
+                                        }
 
-          .sidebar p {
-            margin-left: 70px;
-            margin-right: auto;
-            display: inline-block;
-            width: 250px;
-            color: #b0b0b0;
-            font-size: 21px;
-            text-align: left;
-            margin-top:0px;
-            padding: 0px;
-          }
+                                        .sidebar p {
+                                          margin-left: 70px;
+                                          margin-right: auto;
+                                          display: inline-block;
+                                          width: 250px;
+                                          color: #b0b0b0;
+                                          font-size: 21px;
+                                          text-align: left;
+                                          margin-top:0px;
+                                          padding: 0px;
+                                        }
 
-              .navbar {
-                margin-top: 0px; /* Adjust this value as needed */
-                display: inline-block;
-                width: 100px;
-                flex-direction: column;
-              }
+                                            .navbar {
+                                              margin-top: 0px; /* Adjust this value as needed */
+                                              display: inline-block;
+                                              width: 200px;
+                                              flex-direction: column;
+                                              position: absolute;
 
-              .navbar a {
-                font-size: 18px;
-                color: #fff;
-                margin: 60px;
-                padding-right: 70px; 
-                max-inline-size: 30px;
-                line-height: 40px;
-                text-align: justify;
-              }
+                                            }
 
-              .navbar a:hover {
-                background-color: #fff;
-                color: #000;
-              }
+                                            .navbar a {
+                                              font-size: 18px;
+                                              color: #fff;
+                                              margin: 60px;
+                                              padding-right: 70px; 
+                                              line-height: 40px;
+                                              white-space: nowrap;
+                                            }
 
-              .navbar h3 { 
-                font-size: 0px;    
-                color: #b0b0b0;  
-                margin-top: 00px;  
-                text-align: center;
-              }
+                                            .navbar a.active {
+                                              position: relative; 
+                                            }
 
-              .active {
-                background-color: #91665b;
-                text-decoration: underline;
-                color: #000}
+                                            .navbar a.active::before {
+                                                  content: "»";
+                                                  color: #fff;
+                                                  font-size: 14px;
+                                                  margin-right: 0px;
+                                                  position: absolute;  
+                                                  transform: translateX(-300%);
+                                                }
 
-.homepage .sidebar { height: 250px;}
-.CV .sidebar { height: 250px; }
-.Research .sidebar { height: 250px; }
+                                            .navbar a:hover {
+                                              background-color: #fff;
+                                              color: #000;
+                                            }
+
+                                            .navbar h3 { 
+                                              font-size: 0px;    
+                                              color: #b0b0b0;  
+                                              margin-top: 00px;  
+                                              text-align: center;
+                                            }
+
+                                            .active {
+                                              background-color: #545454;
+                                              text-decoration: underline;
+                                              color: #000
+
+
+                                            }
+
+                              .homepage .sidebar { height: 250px;}
+                              .CV .sidebar { height: 250px; }
+                              .Research .sidebar { height: 250px; }
+
+
+
+                              }
+
+                              .CV-education, 
+                              .CV-proficiencies,
+                              .CV-Experience{width: 660px;}
 
 
           }
