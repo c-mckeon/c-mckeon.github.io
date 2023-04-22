@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -9,12 +10,13 @@ body {
 .container {
   display: inline-block;
   padding-left: 30px;
-  padding-top: 100px;
+  padding-top: 60px;
   vertical-align: top;
 }
 
 .content {
   width: 700px;
+    margin-top: 40px;
   padding-left: 30px;
   display: inline-block;
   vertical-align: top;
@@ -23,8 +25,9 @@ body {
 .photo img {vertical-align: bottom;}
 
 
-
-
+.homepage .sidebar { height: 800px;}
+.CV .sidebar { height: 2000px; }
+.Research .sidebar { height: 1050px; }
 
           .sidebar {
             background-color: #454545;
@@ -79,9 +82,14 @@ body {
               .navbar h3 { 
                 font-size: 14px;    
                 color: #b0b0b0;  
-                margin-top: 50px;  
+                margin-top: 100px;  
                 text-align: center;
-                        }
+              }
+
+              .active {
+                background-color: #91665b;
+                color: #000}
+                       
 
 
 
@@ -95,6 +103,7 @@ body {
 
 .main-content p {
   text-align: justify;
+  margin-top: 5px;
   width: 350px;
 }
 
@@ -128,6 +137,7 @@ body {
       }
           .height{
             margin: 10px;
+            margin-left: 0px;
           }
 
       .CV-Experience{
@@ -139,6 +149,9 @@ body {
       .dates {
         float: right;
       }
+
+      .bold {margin-top: 10px; margin-bottom: 10px}
+      .bullet {margin-top: 10px; margin-bottom: 10px; margin-left: 20px}
 
 
 
@@ -163,11 +176,12 @@ body {
 .Pro-Presentations p{
   width: 550px;
   margin-left: 20px;
+  margin-top: 25px;
   }
 
 .Pro-Reports ,
 .Pro-Presentations {
-    border-left: solid 2px;
+    border-left: solid 3px;
   border-color: #555;
   }
 
@@ -179,3 +193,101 @@ footer {
 
 
 
+
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1201px) {
+  .sidebar {
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+
+
+  .sidebar ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sidebar li {
+    margin: 0;
+  }
+
+
+
+.sidebar {
+            background-color: #454545;
+              width: 100%;
+              height: 250px;
+              position: relative;
+            color: #fff;
+              flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: static;
+            margin-left: 0px;
+            margin-top: 0px;
+          }
+
+          .sidebar h1 {
+            margin: 0;
+            font-size: 40px;
+            text-align: left;
+            padding: 20px;
+            padding-left: 70px;
+          }
+
+          .sidebar p {
+            margin-left: 70px;
+            margin-right: auto;
+            display: inline-block;
+            width: 250px;
+            color: #b0b0b0;
+            font-size: 21px;
+            text-align: left;
+            margin-top:0px;
+            padding: 0px;
+          }
+
+              .navbar {
+                margin-top: 0px; /* Adjust this value as needed */
+                display: inline-block;
+                width: 100px;
+                flex-direction: column;
+              }
+
+              .navbar a {
+                font-size: 18px;
+                color: #fff;
+                margin: 60px;
+                padding-right: 70px; 
+                max-inline-size: 30px;
+                line-height: 40px;
+                text-align: justify;
+              }
+
+              .navbar a:hover {
+                background-color: #fff;
+                color: #000;
+              }
+
+              .navbar h3 { 
+                font-size: 0px;    
+                color: #b0b0b0;  
+                margin-top: 00px;  
+                text-align: center;
+              }
+
+              .active {
+                background-color: #91665b;
+                text-decoration: underline;
+                color: #000}
+
+.homepage .sidebar { height: 250px;}
+.CV .sidebar { height: 250px; }
+.Research .sidebar { height: 250px; }
+
+
+          }
