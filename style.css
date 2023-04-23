@@ -25,21 +25,21 @@ body {
 .photo img {vertical-align: bottom;}
 
 
-.homepage .sidebar { height: 900px;}
+.homepage .sidebar { height: 1100px;}
 .CV .sidebar { height: 2250px; }
-.Research .sidebar { height: 1050px; }
+.Research .sidebar { height: 1350px; }
 
           .sidebar {
             background-color: #454545;
             color: #fff;
-            width: 250px;
+            width: 275px;
             height: 100%;
             display: inline-block;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             position: static;
-            margin-left: 150px;
+            margin-left: 125px;
             margin-top: 00px;
           }
 
@@ -56,7 +56,7 @@ body {
             font-size: 21px;
             text-align: center;
             margin-top: 20px;
-            padding: 25px;
+            padding: 35px;
           }
 
 
@@ -82,7 +82,7 @@ body {
               }
 
               .navbar a.active::before {
-                content: "»     ";
+                content: "»";
                 color: #fff;
                 font-size: 14px;
                 margin-right: 10px;
@@ -92,13 +92,18 @@ body {
                 transform: translateX(-230%);
               }
 
+                .hide {
+                  font-size: 0px;
+                }
 
-
-              .navbar h3 { 
-                font-size: 14px;    
+              .sidebar h3 { 
+                font-size: 16px;    
                 color: #b0b0b0;  
                 margin-top: 100px;  
                 text-align: center;
+                font-weight: normal;
+
+                line-height: 24px;
               }
 
 
@@ -127,6 +132,13 @@ body {
 }
 
 .titleabout {margin-bottom: 7px}
+
+.thissite p {
+  text-align: justify;
+  margin-top: 0px;
+  width: 450px;
+  line-height: 21px;
+}
 
 .photo img {
   width: 250px;
@@ -195,6 +207,9 @@ body {
 }
 
 
+.Pro-overview p { 
+  width: 650px;
+  text-align: justify;}
 
 .Pro-Reports p,
 .Pro-Presentations p{
