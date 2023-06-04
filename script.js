@@ -16,10 +16,16 @@ const fnpresleuko = "Conor McKeon IGF Presentation.pdf";
 
 
 
+
+
 // Add onclick events to the image elements
 repnua4.onclick = function() {
   // Construct the path to the document file
   const filePath = "docs/" + fnrepnua4;
+
+  // Open the document file in a new tab or window when the image is clicked
+  window.open(filePath, "_blank");
+
 
   // Track the event with GoatCounter
   goatcounter.count({
@@ -27,8 +33,6 @@ repnua4.onclick = function() {
     path: filePath
   });  
 
-  // Open the document file in a new tab or window when the image is clicked
-  window.open(filePath, "_blank");
 };
 
 
@@ -39,14 +43,15 @@ repzymo.onclick = function() {
   // Construct the path to the document file
   const filePath = "docs/" + fnrepzymo;
    
-   // Track the event with GoatCounter
+  
+  // Open the document file in a new tab or window when the image is clicked
+  window.open(filePath, "_blank");
+
+  // Track the event with GoatCounter
   goatcounter.count({
     event: true,
     path: filePath
   });  
-  
-  // Open the document file in a new tab or window when the image is clicked
-  window.open(filePath, "_blank");
 };
 
 
@@ -57,15 +62,16 @@ repsponge.onclick = function() {
   // Construct the path to the document file
   const filePath = "docs/" + fnrepsponge;
   
+
+  // Open the document file in a new tab or window when the image is clicked
+  window.open(filePath, "_blank");
+  
   // Track the event with GoatCounter
   goatcounter.count({
     event: true,
     path: filePath
   });  
   
-
-  // Open the document file in a new tab or window when the image is clicked
-  window.open(filePath, "_blank");
 };
 
 
@@ -78,6 +84,13 @@ presnua4.onclick = function() {
   
   // Open the document file in a new tab or window when the image is clicked
   window.open(filePath, "_blank");
+
+    // Track the event with GoatCounter
+  goatcounter.count({
+    event: true,
+    path: filePath
+  });  
+    
 };
 
 
@@ -88,15 +101,17 @@ preszymo.onclick = function() {
   // Construct the path to the document file
   const filePath = "docs/" + fnpreszymo;
 
+  
+  // Open the document file in a new tab or window when the image is clicked
+  window.open(filePath, "_blank");
+
+
   // Track the event with GoatCounter
   goatcounter.count({
     event: true,
     path: filePath
   });  
   
-  
-  // Open the document file in a new tab or window when the image is clicked
-  window.open(filePath, "_blank");
 };
 
 
@@ -107,14 +122,16 @@ presleuko.onclick = function() {
   // Construct the path to the document file
   const filePath = "docs/" + fnpresleuko;
 
-  // Track the event with GoatCounter
+
+  // Open the document file in a new tab or window when the image is clicked
+  window.open(filePath, "_blank");
+
+    // Track the event with GoatCounter
   goatcounter.count({
     event: true,
     path: filePath
   });  
     
-  // Open the document file in a new tab or window when the image is clicked
-  window.open(filePath, "_blank");
 };
 
 
